@@ -1,0 +1,28 @@
+.banner2 {
+  background-color: #ddd;
+  aspect-ratio: 6/1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+h3 {
+  text-align: left;
+  font-weight: 200;
+}
+.body {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin: 50px 0 0 0;
+}
+th {
+  background-color: #ddd;
+  padding: 20px 5px;
+}
+.history a {
+  border: 1px solid black;
+  padding: 10px 2px;
+  text-decoration: none;
+  color: black;
+}

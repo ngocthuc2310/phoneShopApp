@@ -1,0 +1,50 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(50, 50, 50, 0.7);
+}
+
+.detailpopup2 {
+  width: 55rem;
+  position: fixed;
+  left: 50%;
+  top: 3rem;
+  transform: translateX(-50%);
+  z-index: 11;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.detailpopup {
+  display: flex;
+  text-align: left;
+}
+
+.detailpopup img {
+  width: 50%;
+  aspect-ratio: 1/1;
+}
+
+.detailpopup > div {
+  width: 50%;
+  padding: 1.5rem;
+}
+
+.detailpopup h2 {
+  color: #888;
+}
+
+.detailpopup h2,
+.detailpopup h1 {
+  margin: 0;
+}
+
+.detailpopup p {
+  height: 10rem;
+  overflow: auto;
+}

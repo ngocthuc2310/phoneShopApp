@@ -1,0 +1,116 @@
+.icon3 {
+  width: 2.7rem;
+  height: 2.7rem;
+  position: fixed;
+  right: 5%;
+  bottom: 8%;
+}
+@keyframes popup {
+  0% {
+    transform: rotate(0deg) scale(1%);
+  }
+  33% {
+    transform: rotate(-20deg) scale(33%);
+  }
+  66% {
+    transform: rotate(20deg) scale(66%);
+  }
+  100% {
+    transform: rotate(0deg) scale(100%);
+  }
+}
+.popup-chat {
+  display: none;
+  font-size: 0.8rem;
+  width: 20rem;
+  height: 21rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  position: fixed;
+  right: 6%;
+  bottom: 19%;
+  padding: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem 0.2rem #888;
+}
+.popup-chat-show {
+  display: block;
+  animation-name: popup;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
+}
+.guest {
+  text-align: right;
+}
+.guest > span {
+  display: inline-block;
+  margin: 0.2rem 0;
+  padding: 0.4rem;
+  background-color: #48b0f7;
+  color: white;
+}
+.adm {
+  text-align: left;
+}
+.adm > span {
+  display: inline-block;
+  margin: 0.2rem 0;
+  padding: 0.4rem;
+  background-color: #eee;
+  color: #444;
+}
+.heard {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #666;
+}
+.heard > *:nth-of-type(2) {
+  background-color: #eee;
+  padding: 0.3rem;
+}
+.heard > *:nth-of-type(2):hover {
+  background-color: #333;
+  color: white;
+}
+.heard > *:first-of-type {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.popup-chat img {
+  display: inline-block;
+  width: 2rem;
+  aspect-ratio: 1/1;
+  margin: 0 0.5rem 0 0;
+}
+.adm {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+}
+.input-msg {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: 0.3rem;
+  background-color: #eef;
+  width: 95%;
+}
+.input-msg input {
+  height: 1em;
+  width: 11em;
+  border-style: none;
+}
+.input-msg input ~ img {
+  display: inline-block;
+  width: 1.2rem;
+  aspect-ratio: 1/1;
+  margin: 0 0 0 0.5rem;
+}
+.content {
+  width: 100%;
+  height: 260px;
+  overflow: auto;
+}

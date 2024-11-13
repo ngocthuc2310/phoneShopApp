@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.layout {
+  width: 72rem;
+  margin: 0.5rem auto;
+  font-style: italic;
+}
+
+.dislay {
+  display: block;
+}
+
+.hiden {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #fff;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.navbar a:hover {
+  color: red;
+}
+
+.navbar a:active {
+  color: blue;
+}
+.head1 {
+  font-size: 1.7rem;
+}
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #222;
+  color: white;
+  padding: 3rem 1rem;
+  font-style: italic;
+}
+
+.footer > div {
+  width: 72rem;
+  margin: 0.5rem auto;
+  display: flex;
+}
+
+.footer > div > div {
+  width: 33%;
+  height: 10rem;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.footer > div > div > div {
+  padding: 0.5rem;
+}
+
+.footer > div > div > div:first-child {
+  font-size: 1.3rem;
+}

@@ -1,0 +1,158 @@
+.home {
+  color: inherit;
+  background-color: #fefcfe;
+}
+
+.banner {
+  width: 100%;
+  aspect-ratio: 7/3;
+  background-image: url("../../assets/banner1.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.bn-content {
+  position: absolute;
+  left: 6%;
+  top: 50%;
+  transform: translateY(-55%);
+  width: 33%;
+  text-align: left;
+}
+
+.bn-content h5 {
+  color: #777;
+  font-weight: 200;
+}
+
+.bn-content h1 {
+  font-weight: 200;
+}
+
+.text h4 {
+  color: #777;
+  font-style: italic;
+  margin: 0.4rem;
+}
+
+.text h3 {
+  color: #444;
+  font-style: italic;
+  margin: 0.4rem;
+}
+
+.category {
+  margin: 2rem 0;
+}
+
+.category > div {
+  margin: 0.1rem 0;
+}
+
+.button {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.image1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.image2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  gap: 20px;
+}
+
+.image1 img {
+  width: 100%;
+}
+
+.image2 img {
+  width: 100%;
+}
+
+.image1 a {
+  display: inline-block;
+  width: 49%;
+}
+
+.image2 a {
+  display: inline-block;
+  width: 32%;
+}
+
+.produces {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.text2 h4 {
+  text-align: left;
+  color: #777;
+  font-style: italic;
+  margin: 0.4rem;
+}
+
+.text2 h3 {
+  text-align: left;
+  color: #444;
+  font-style: italic;
+  margin: 0.4rem;
+}
+
+.free {
+  display: flex;
+  background-color: #eee;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+
+.other h5 {
+  color: #666;
+  margin: 0.5rem;
+}
+
+.other h4 {
+  margin: 0.5rem;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.form h4,
+.form h5 {
+  text-align: left;
+}
+
+.gr-input {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  border: 1px solid #555;
+}
+
+.gr-input input {
+  display: block;
+  width: 100%;
+  height: 2.9rem;
+  border-style: none;
+}
+
+.gr-input a {
+  background-color: #333;
+  color: white;
+  display: inline-block;
+  padding: 1.2rem;
+  text-decoration: none;
+}

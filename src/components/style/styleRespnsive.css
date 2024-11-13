@@ -1,0 +1,325 @@
+@media (max-width: 1025px) {
+  .layout {
+    width: 100%;
+    margin: 0.5rem auto;
+    font-style: italic;
+  }
+  .footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #222;
+    color: white;
+    padding: 3rem 1rem;
+    font-style: italic;
+  }
+  .footer > div {
+    width: 100%;
+    margin: 0.5rem auto;
+    display: flex;
+  }
+  .bn-content h1 {
+    font-size: 1rem;
+  }
+  .button {
+    font-size: 0.6rem;
+    background-color: #333;
+    color: white;
+    padding: 0.1rem;
+    text-decoration: none;
+  }
+  .bn-content h5 {
+    color: #777;
+    font-weight: 200;
+    margin: 0;
+    font-size: 0.6rem;
+  }
+  .navbar {
+    font-size: 2.6vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: #fff;
+  }
+  .form {
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem;
+  }
+  .gr-input a {
+    background-color: #333;
+    color: white;
+    display: inline-block;
+    padding: 0.7rem;
+    text-decoration: none;
+  }
+  .gr-input input {
+    display: block;
+    width: 100%;
+    height: 1.1rem;
+    border-style: none;
+  }
+  .footer > div > div > div:first-child {
+    font-size: 1rem;
+  }
+  .footer > div > div > div {
+    padding: 0.3rem;
+  }
+  .produce {
+    font-size: 0.6rem;
+    width: 100%;
+    aspect-ratio: 5/8;
+  }
+  .produces {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.3rem;
+  }
+  h3 {
+    text-align: left;
+    font-weight: 200;
+    font-size: 0.8rem;
+  }
+  .head1 {
+    font-size: 3vw;
+  }
+  .category1 h4,
+  .category1 a {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem 0;
+    text-decoration: none;
+    color: #444;
+    font-size: 0.6rem;
+  }
+  .category1 h4,
+  .category1 a {
+    display: block;
+    padding: 0.5rem 0.1rem;
+    margin: 0.3rem 0;
+    text-decoration: none;
+    color: #444;
+    font-size: 0.6rem;
+  }
+  .search input {
+    height: 2rem;
+    width: 38%;
+    border: 1px solid #777;
+  }
+  .search input,
+  .search select {
+    font-size: 2vw;
+  }
+  .body {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 0.1rem;
+  }
+  .category1 h3 {
+    font-size: 2.8vw;
+  }
+  .icon {
+    width: 3vw;
+    height: 3vw;
+    color: black;
+  }
+  .detailpopup2 {
+    width: 95vw;
+    position: fixed;
+    left: 50%;
+    top: 3rem;
+    transform: translateX(-50%);
+    z-index: 11;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+  }
+  .detailpopup h2,
+  .detailpopup h1 {
+    margin: 0;
+    font-size: 4vw;
+  }
+  .detailpopup p {
+    height: 20vw;
+    overflow: auto;
+    font-size: 3vw;
+  }
+  .text-detail h1 {
+    font-weight: 200;
+    font-size: 4vw;
+  }
+  .quatity {
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1vw 0;
+    border: 1px solid #555;
+  }
+  .text-detail p {
+    font-size: 3.5vw;
+    color: #666;
+    height: 23vw;
+    overflow: auto;
+  }
+  .text-detail h2 {
+    font-size: 4vw;
+    font-weight: 200;
+    color: #666;
+  }
+  .text-detail > * {
+    margin: 1vw;
+  }
+  .image-detail {
+    display: flex;
+    gap: 1vw;
+    width: 50%;
+  }
+  .detailpopup .button {
+    font-size: 3vw;
+    background-color: #333;
+    color: white;
+    padding: 1vw;
+    text-decoration: none;
+  }
+  .product-cart > div:first-of-type {
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    background-color: #ddd;
+  }
+  .list-cart {
+    font-size: 1.3vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 2fr 1fr;
+  }
+  .list-cart img {
+    width: 8vw;
+    aspect-ratio: 1/1;
+    padding: 0vw;
+    margin: 2vw 0;
+  }
+  .icon1 {
+    width: 4.3vw;
+    height: 4.3vw;
+    color: black;
+  }
+  .total-cart h2 {
+    font-size: 3vw;
+    text-align: left;
+    font-weight: 300;
+    margin: 0.5rem 0;
+  }
+  .total-cart {
+    width: 42%;
+    background-color: #ddd;
+    padding: 1vw;
+  }
+  .register form {
+    width: 100%;
+    margin: 1rem auto;
+    text-align: left;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 0.6rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.4rem #666;
+  }
+  .login form {
+    width: 100%;
+    margin: 1rem auto;
+    text-align: left;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 0.6rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.4rem #666;
+  }
+  .product-cart {
+    width: 69%;
+  }
+  .total-cart {
+    width: 42%;
+    background-color: #ddd;
+    padding: 1vw;
+  }
+  .body > form {
+    display: block;
+    width: 54%;
+    text-align: left;
+  }
+  .order {
+    width: 45%;
+    background-color: #ddd;
+    text-align: left;
+    padding: 1rem;
+  }
+  .quatity a {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 1.2vw;
+  }
+  .detai-content {
+    padding: 1vw;
+    display: flex;
+    gap: 1rem;
+  }
+  .exit {
+    font-size: 2vw;
+    display: flex;
+    width: 100%;
+    height: 10vw;
+    padding: 1vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+  }
+  .subtotal,
+  .total {
+    font-size: 2.5vw;
+  }
+  .input input {
+    display: block;
+    height: 5vw;
+    width: 100%;
+  }
+  .input button {
+    font-size: 2.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vw;
+    background-color: #333;
+    color: white;
+    width: 100%;
+  }
+  .icon-white {
+    width: 3.3vw;
+    height: 1.1rem;
+    color: white;
+  }
+  .order > div:first-of-type > * {
+    padding: 1vw;
+    font-size: 2vw;
+  }
+  .order {
+    width: 45%;
+    background-color: #ddd;
+    text-align: left;
+    padding: 1vw;
+  }
+  .relate * {
+    text-align: left;
+    font-size: 3.5vw;
+  }
+  .text-detail b {
+    font-size: 3.2vw;
+  }
+  h3 {
+    text-align: left;
+    font-weight: 200;
+    font-size: 3vw;
+  }
+}

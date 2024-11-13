@@ -1,0 +1,60 @@
+.banner2 {
+  background-color: #ddd;
+  aspect-ratio: 6/1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+h3 {
+  text-align: left;
+  font-weight: 200;
+}
+.body {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.body > form {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+.body > form > *:not(button) {
+  display: block;
+  width: 100%;
+}
+label {
+  margin: 1rem 0 0.4rem 0;
+}
+input {
+  height: 3rem;
+}
+button {
+  background-color: #333;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  margin: 1rem 0;
+}
+.order {
+  width: 45rem;
+  background-color: #ddd;
+  text-align: left;
+  padding: 1rem;
+}
+.order > div:first-of-type {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+}
+.order > div:first-of-type > * {
+  padding: 0.5rem;
+}
+.order
+  > div:first-of-type
+  > *:not(.order > div > *:last-of-type, .order > div > *:nth-last-of-type(2)) {
+  border-bottom: 1px solid #777;
+}
+.order > div > *:nth-last-of-type(odd):not(.order > div > *:last-of-type) {
+  color: #777;
+}

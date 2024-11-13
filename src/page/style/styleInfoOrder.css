@@ -1,0 +1,17 @@
+.info_order {
+  margin: 0 auto;
+}
+.info_order img {
+  width: 150px;
+  aspect-ratio: 3/4;
+}
+.info_order h1 {
+  font-weight: 200;
+  text-align: left;
+}
+.info_order h3 {
+  color: #928787;
+}
+.info_order table {
+  width: 100%;
+}

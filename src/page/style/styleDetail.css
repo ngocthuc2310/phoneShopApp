@@ -1,0 +1,98 @@
+.image-detail {
+  display: flex;
+  gap: 1rem;
+  width: 50%;
+  justify-content: center;
+}
+
+.image-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  gap: 1rem;
+}
+
+.image-list img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.image-larg {
+  width: 80%;
+  aspect-ratio: 1/1;
+}
+
+.detai-content {
+  display: flex;
+  gap: 1rem;
+}
+
+.text-detail {
+  width: 50%;
+  text-align: left;
+}
+
+.text-detail h1 {
+  font-weight: 200;
+}
+
+.text-detail h2 {
+  font-weight: 200;
+  color: #666;
+}
+
+.text-detail p {
+  color: #666;
+  height: 10rem;
+  overflow: auto;
+}
+
+.quatity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+  margin: 1.5rem 0;
+  border: 1px solid #555;
+}
+
+.quatity .iconbt {
+  width: 3.9rem;
+  margin: 0 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quatity a {
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.related-pro {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.related-pro img {
+  width: 100%;
+}
+
+.relate {
+  margin: 1.5rem 0;
+}
+
+.relate * {
+  text-align: left;
+}
+
+.relate button {
+  background-color: #222;
+  color: white;
+  padding: 0.7rem 1rem;
+}
