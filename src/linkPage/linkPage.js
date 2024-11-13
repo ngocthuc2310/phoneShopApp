@@ -1,5 +1,5 @@
-exports.link = "https://server-app-aqf7.onrender.com";
-const link = "https://server-app-aqf7.onrender.com";
+exports.link = "http://localhost:5000";
+const link = "http://localhost:5000";
 exports.linkProduce = link + "/listproduct";
 exports.signup = link + "/signup";
 exports.login = link + "/login";
